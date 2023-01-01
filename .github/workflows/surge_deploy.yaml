@@ -18,4 +18,4 @@ jobs:
       - name: Setup Surge
         run: npm install --global surge
       - name: Execute Deployment with Surge
-        run: surge ./ anamvaporware.surge.sh --token ${{ secrets.PERSONAL_WBSITE_SECRETE }}
+        run: surge ./ anamportfolio.surge.sh --token ${{ secrets.PERSONAL_WBSITE_SECRETE }}
